@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div, nav, article, main, header, footer {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: left;
+}
+
+header {
+    padding: 5px 0;
+    width: 100%;
+    background-color: rgba(14, 13, 13, 0.9);
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    color: rgb(238, 238, 238);
+}
+.menu-icon {    /*new*/
+    color: white;
+    padding: 20px;
+    margin: 0 5px;
+    float: right;
+    display: none;
+}
+header h1 {
+    margin: 6px 2%;
+    float: left;
+}
+.ato {
+    color: rgb(230, 2, 2);
+}
+header li {
+    margin: 0;
+    float: right;
+    margin-right: 5px;
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+}
+a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 9px;
+}
+a:hover {
+    background-color: rgb(80, 79, 79);
+    color: black;
+}
+a:active {
+    background-color: rgb(161, 165, 168);
+    color: white;
+}
+a:visited {
+    color: floralwhite;
+}
+
+.content1 {
+    padding: 200px 100px;;
+    color: rgb(238, 238, 238);
+    background-image: url(asset/sketch3\ -\ Copy11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home {
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-size: 75px;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+.home p {
+    margin-bottom:10px;
+    text-shadow: 5px 10px 10px #000000;
+}
+.dot {
+    color: rgb(230, 2, 2);
+}
+.btn-wrapper {
+    margin: 20px 0;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+.signup {
+    background-color: lightseagreen; 
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0 5px #000000;
+}
+.login {
+    background-color: orangered;
+    float: left;
+    box-shadow: 0 5px #000000;
+}
+.login:active, .signup:active {
+    box-shadow: none;
+    top: 5px;
+    position: relative;
+}
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+.content2 {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+    overflow : hidden
+}
+.categories h2 {
+    padding-top:120px;
+    padding-bottom:30px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+.oricon, .fan {
+    float: left;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.oricon img, .fan img {
+    border-radius: 1000px;
+    box-shadow: 8px 10px 10px #000000;
+    margin: 30px 20%;
+}
+.baton {
+    color: rgb(46, 45, 45);
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 12px 0;
+    width: 35%;
+    height: 45px;
+    margin: 0 10px;
+}
+.baton:hover {
+    opacity: 1;
+}
+.oc, .fa {
+    float: left;
+    text-align: center;
+    background-color: rgb(81, 148, 81);
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 5px #242424;
+    margin: 0 30%;
+    width: 40%;
+}
+.oc:active, .fa:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.content3 {
+    padding-bottom: 50px;
+    background-image: url(asset/sketch4\ -\ Copy1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(247, 244, 244);
+}
+.commissions {
+    padding: 120px 120px;
+}
+.commissions h2 {
+    letter-spacing: 8px;
+    margin-bottom: 60px;
+}
+.commissions p {
+    font-size: 20px;
+    line-height: 50px;
+}
+.bton {
+    color: rgb(46, 45, 45);
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 12px 24px;
+    box-shadow: 0 5px #242424;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: normal;
+    background-color: rgb(81, 148, 81);
+    margin-top: 60px;
+}
+.bton:hover {
+    opacity: 1;
+}
+.bton:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.content4 {
+    padding-bottom: 80px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 120px;
+}
+.member h2 {
+    padding-bottom: 60px;
+    letter-spacing: 8px;
+}
+.title p {
+    font-size: 20px;
+    line-height: 50px;
+}
+.title a {
+    margin: 50px 0;
+}
+hr {
+    margin: 20px 15%;
+}
+.benefit {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 700;
+    margin: 20px 15%;
+}
+aside {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin: 30px 28%;
+    text-align: center;
+    color: floralwhite;
+    border-radius: 70px;
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(56, 28, 28));
+}
+.profile h2 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    letter-spacing: 8px;
+    color: black;
+}
+.profile img, .profile p {
+    text-align: center;
+}
+.profile img {
+    border-radius: 1000px;
+    margin: 10px 20px;
+    box-shadow: 8px 8px 10px #000000;
+}
+.profile p {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+footer {
+    padding-top: 30px;
+    color: rgb(22, 36, 36);
+    text-align: center;
+}
+footer p {
+    font-size: 12px;
+    padding: 0 20px 20px 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.logo {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 1025px) and (min-width: 1001px) {
+    .oricon img, .fan img {
+        margin: 30px 55px;
+    }
+    .content3, .content1 {
+        background-position: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content3 {
+        background-position: center;
+    }
+    .content2 {
+        width: 100%;
+        margin-bottom: 9%;
+    }
+    .oricon, .fan {
+        width: 100%;
+        height: auto;
+        margin: 0 4%;
+        padding: 0;
+        clear: left;
+    }
+    .responsive {
+        width: 50%;
+        height: auto;
+    }
+    .baton {
+        width: 40%;
+        height: auto;
+        margin: 0 26%;
+        margin-bottom: 10%;
+    }
+    .oc, .fa {
+        width: 40%;
+        font-size: 80%;
+    }
+    aside {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 770px) and (min-width: 751px) {
+    .menu-icon {    /*new*/
+        display: block;
+        padding: 15px;
+    }
+    header li {     /*new*/
+        display: none;
+        position: absolute;
+    }
+}
+
+@media (max-width: 750px) {
+    .menu-icon {    /*new*/
+        display: block;
+        padding: 20px;
+    }
+    header li {     /*new*/
+        display: none;
+        position: absolute;
+    }
+    .content1 {
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-top: 180px;
+    }
+    .signup, .login {
+        font-size: 90%;
+        margin-top: 10px;
+    }
+    .home p {
+        font-size: 65%;
+        letter-spacing: 1px;
+    }
+    .home {
+        margin-left: -11%;
+    }
+    header h1 {
+        font-size: 150%;
+        margin: 10px 5%;
+    }
+    header li {
+        font-size: 90%;
+    }
+    .btn-wrapper {
+        font-size: 18%;
+    }
+    .content3, .content1 {
+        background-position: center;
+    }
+    .content2 {
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .oricon, .fan {
+        width: 100%;
+        height: auto;
+        margin: 0 5%;
+        padding: 0;
+        clear: left;
+    }
+    .responsive {
+        width: 50%;
+        height: auto;
+    }
+    .baton {
+        width: 40%;
+        height: auto;
+        margin: 0 25%;
+        margin-bottom: 10%;
+    }
+    .oc, .fa {
+        width: 40%;
+        font-size: 70%;
+    }
+    .bton {
+        font-size: 80%;
+        margin-bottom: 20%;
+    }
+    .content3 {
+        padding-top: 33%;
+    }
+    .commissions {
+        padding: 0 15%;
+    }
+    .commissions p {
+        font-size: 100%;
+        line-height: 35px;
+    }
+    .title p {
+        padding: 0 10%;
+        font-size: 100%;
+        line-height: 35px;
+    }
+    .benefit p {
+        padding: 0;
+        font-size: 90%;
+        margin-bottom: 10%;
+    }
+    aside {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .categories h2, .commissions h2, .member h2, .profile h2 {
+        font-size: 120%;
+        letter-spacing: 4px;
+    }
+    footer p {
+        font-size: 60%;
+    }
+    .logo {
+        font-size: 85%;
+    }
+    .profile p {
+        font-size: 90%;
+    }
+    .benefit {
+        line-height: 35px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .menu-icon {    /*new*/
+        display: block;
+        padding: 16px;
+    }
+    header li {     /*new*/
+        display: none;
+        position: absolute;
+    }
+    header h1 {
+        font-size: 130%;
+        margin: 10px 5%;
+    }
+    .home p {
+        font-size: 50%;
+        letter-spacing: 1px;
+    }
+    .signup, .login {
+        font-size: 70%;
+        padding: 10px 5%;
+    }
+    .oricon, .fan {
+        margin-bottom: 10%;
+    }
+    .oricon img, .fan img {
+        width: 70%;
+        margin: 15px 30px;
+    }
+    .oc, .fa {
+        width: 50%;
+        font-size: 60%;
+        margin: 0 20%;
+    }
+    header li {
+        font-size: 70%;
+    }
+    .bton {
+        font-size: 70%;
+    }
+    .content3 {
+        padding-top: 43%;
+    }
+    .commissions p {
+        font-size: 90%;
+        line-height: 25px;
+    }
+    .title p {
+        font-size: 90%;
+        line-height: 25px;
+    }
+    .benefit p {
+        font-size: 75%;
+        line-height: 25px;
+    }
+    .categories h2, .commissions h2, .member h2, .profile h2 {
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+    .profile p {
+        font-size: 70%;
+        line-height: 25px;
+    }
+    .profile img {
+        width: 60%;
+    }
+}
